@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: #181818;
+  width: 1440px;
+  height: 20px;
+}
+
+.main-text {
+  font-family: "Lemonada";
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+
+.foot {
+  background: #181818;
+  width: 1440;
+  height: 77;
+  color: white;
+  text-align: center;
+  font-family: "ABeeZee";
+}
