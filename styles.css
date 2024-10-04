@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@300..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lemonada", cursive;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+  background-image: url("./assets/background.png");
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.content-wrapper {
+  position: relative;
+  z-index: 2;
+}
+
+.header {
+  width: 100%;
+  background: #181818;
+  padding: 20px 0;
+}
+
+.main-text {
+  color: white;
+  font-size: 26px;
+  text-align: center;
+}
+
+.footer {
+  padding: 20px 0;
+  background: #181818;
+  width: 100%;
+}
+
+.foot {
+  color: white;
+  text-align: center;
+}
+
+.main-desc {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ramen-img {
+  width: 200px;
+  height: 140px;
+  border-radius: 5px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  border: 5px solid #b43f3f;
+  border-radius: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background-color: rgba(24, 24, 24, 0.7);
+}
+
+.dango-img {
+  width: 200px;
+  height: 140px;
+  border-radius: 5px;
+}
+
+.yakitori-img{
+  width: 200px;
+  height: 140px;
+  border-radius: 5px;
+}
+
+.recipe {
+  background: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 28px 75px;
+  width: 150px;
+  height: 40px;
+  border: 3px solid #b43f3f;
+  border-radius: 20px;
+  justify-content: center;
+  color: white;
+  font-family: "Lemonada", cursive;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.recipe:hover{
+  background-color: #b43f3f;
+  color: white;
+}
+
+.onigiri-img {
+  width: 200px;
+  height: 140px;
+  border-radius: 5px;
+}
+
+.recipe-title {
+  font-family: "Lemonada", cursive;
+  font-size: 35px;
+  color: white;
+}
